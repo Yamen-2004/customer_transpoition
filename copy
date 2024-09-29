@@ -1,0 +1,11 @@
+.literataTextTheme(
+          Theme.of(context).textTheme,
+        ),
+        #E57761
+
+
+
+مجمع المحطة
+مجمع الشمال
+مجمع المهاجرين
+مجمع الجنوب الجديد
