@@ -4,7 +4,7 @@ import 'model/Irbid.dart';
 
 class IrbidInfoData {
   Future<List<Irbid>> fetchdata() async {
-    String baseUrl = "http://192.168.100.90:3000/Irbid/points";
+    String baseUrl = "http://192.168.8.110:3000/Irbid/points";
     final responce = await http.get(Uri.parse(baseUrl));
     if (responce.statusCode == 200) {
       

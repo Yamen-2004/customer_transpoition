@@ -5,7 +5,7 @@ import 'model/reportModel.dart';
 class reportController{
 
   Future<List<report>> addReport( String reportMessage, String phone) async {
-  String baseUrl = "http://192.168.100.90:3000/report";
+  String baseUrl = "http://192.168.8.110:3000/report";
   final requestBody = jsonEncode({
     "reportMessage": reportMessage,
     "phone": phone
