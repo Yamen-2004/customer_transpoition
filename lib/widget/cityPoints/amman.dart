@@ -1,5 +1,5 @@
+import 'package:customer_transpoition/widget/position.dart';
 import 'package:flutter/material.dart';
-
 
 class Ammanpoint1 extends StatefulWidget {
   const Ammanpoint1({super.key});
@@ -42,25 +42,7 @@ class _Ammanpoint1 extends State<Ammanpoint1> {
                   Stack(children: [
                     Image.asset(pictures[index],
                         fit: BoxFit.cover, height: 194, width: double.infinity),
-                    Container(
-                      margin: const EdgeInsets.only(top: 157),
-                      decoration: BoxDecoration(
-                        color: Colors.black.withOpacity(0.5),
-                        borderRadius: const BorderRadius.only(
-                          bottomLeft: Radius.circular(15),
-                          bottomRight: Radius.circular(15),
-                        ),
-                      ),
-                      child: Center(
-                        child: Text(
-                          names[index],
-                          style: const TextStyle(
-                              color: Colors.white,
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold),
-                        ),
-                      ),
-                    )
+                    position(text: names[index]),
                   ]),
                 ],
               ),

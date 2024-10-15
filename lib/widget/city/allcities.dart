@@ -1,3 +1,4 @@
+import 'package:customer_transpoition/widget/position.dart';
 import 'package:flutter/material.dart';
 
 class cities_card extends StatefulWidget {
@@ -39,16 +40,16 @@ class _cities_card extends State<cities_card> {
   List routes = [
     "IrbidPoints",
     "AmmanPoints",
-    "nodata",
-    "nodata",
-    "nodata",
-    "nodata",
-    "nodata",
-    "nodata",
-    "nodata",
-    "nodata",
-    "nodata",
-    "nodata",
+    "AjlounPoints",
+    "JarashPoints",
+    "AqabaPoints",
+    "MaanPoints",
+    "KarakPoints",
+    "balqaaPoints",
+    "tafilahPoints",
+    "madabaPoints",
+    "mafraqPoints",
+    "zarqaaPoints",
   ];
   @override
   Widget build(BuildContext context) {
@@ -74,26 +75,7 @@ class _cities_card extends State<cities_card> {
                         fit: BoxFit.cover,
                         height: 197.71,
                         width: double.infinity),
-                    Container(
-                      alignment: AlignmentDirectional.bottomCenter,
-                      margin: const EdgeInsets.only(top: 160.3),
-                      decoration: BoxDecoration(
-                        color: Colors.black.withOpacity(0.6),
-                        borderRadius: const BorderRadius.only(
-                          topLeft: Radius.circular(15),
-                          topRight: Radius.circular(15),
-                        ),
-                      ),
-                      child: Center(
-                        child: Text(
-                          names[index],
-                          style: const TextStyle(
-                              color: Color.fromARGB(255, 255, 255, 255),
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold),
-                        ),
-                      ),
-                    )
+                    position(text: names[index]),
                   ]),
                 ],
               ),

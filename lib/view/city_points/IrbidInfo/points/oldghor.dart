@@ -1,6 +1,6 @@
 import 'package:customer_transpoition/MC/controller/model/Irbid.dart';
 
-import '../../../../MC/controller/Irbid.dart';
+import '../../../../MC/controller/controller/Irbid.dart';
 import 'package:flutter/material.dart';
 
 class oldghor extends StatefulWidget {

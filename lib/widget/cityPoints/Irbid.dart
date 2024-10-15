@@ -1,3 +1,4 @@
+import 'package:customer_transpoition/widget/position.dart';
 import 'package:flutter/material.dart';
 
 class irbidpoint1 extends StatefulWidget {
@@ -51,25 +52,7 @@ class _irbidpoint1 extends State<irbidpoint1> {
                   Stack(children: [
                     Image.asset(pictures[index],
                         fit: BoxFit.cover, height: 194, width: double.infinity),
-                    Container(
-                      margin: const EdgeInsets.only(top: 157),
-                      decoration: BoxDecoration(
-                        color: Colors.black.withOpacity(0.5),
-                        borderRadius: const BorderRadius.only(
-                          topLeft: Radius.circular(15),
-                          topRight: Radius.circular(15),
-                        ),
-                      ),
-                      child: Center(
-                        child: Text(
-                          names[index],
-                          style: const TextStyle(
-                              color: Colors.white,
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold),
-                        ),
-                      ),
-                    )
+                    position(text: names[index]),
                   ]),
                 ],
               ),

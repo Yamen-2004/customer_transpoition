@@ -1,4 +1,4 @@
-import 'package:customer_transpoition/MC/controller/amman.dart';
+import 'package:customer_transpoition/MC/controller/controller/amman.dart';
 import 'package:customer_transpoition/MC/controller/model/amman.dart';
 
 import 'package:flutter/material.dart';
