@@ -1,5 +1,5 @@
 class url {
-  String k = "192.168.8.110";
+  String k = "https://my-transposition.onrender.com";
 
   late String uri_ajloun;
   late String uri_amman;
@@ -15,17 +15,17 @@ class url {
   late String uri_balqaa;
 
   url() {
-    uri_ajloun = "http://$k:3000/ajloun/points";
-    uri_amman = "http://$k:3000/amman/points";
-    uri_irbid = "http://$k:3000/irbid/points";
-    uri_jarash = "http://$k:3000/jarash/points";
-    uri_aqaba = "http://$k:3000/aqaba/points";
-    uri_maan = "http://$k:3000/maan/points";
-    uri_karak = "http://$k:3000/karak/points";
-    uri_tafileh = "http://$k:3000/tafileh/points";
-    uri_mafraq = "http://$k:3000/mafraq/points";
-    uri_zarqaa = "http://$k:3000/zarqaa/points";
-    uri_madaba = "http://$k:3000/madaba/points";
-    uri_balqaa = "http://$k:3000/balqaa/points";
+    uri_ajloun = "$k/ajloun/points";
+    uri_amman = "$k/amman/points";
+    uri_irbid = "$k/irbid/points";
+    uri_jarash = "$k/jarash/points";
+    uri_aqaba = "$k/aqaba/points";
+    uri_maan = "$k/maan/points";
+    uri_karak = "$k/karak/points";
+    uri_tafileh = "$k/tafileh/points";
+    uri_mafraq = "$k/mafraq/points";
+    uri_zarqaa = "$k/zarqaa/points";
+    uri_madaba = "$k/madaba/points";
+    uri_balqaa = "$k/balqaa/points";
   }
 }

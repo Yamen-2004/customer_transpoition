@@ -1,4 +1,5 @@
 import 'package:customer_transpoition/MC/controller/model/Irbid.dart';
+import 'package:customer_transpoition/widget/waiting.dart';
 
 import '../../../../MC/controller/controller/Irbid.dart';
 import 'package:flutter/material.dart';
@@ -81,7 +82,7 @@ class _oldghor extends State<oldghor> {
                             itemCount: point2.length,
                             itemBuilder: (context, index) {
                               return Container(
-                                height: 70,
+                                height: 80,
                                 margin: EdgeInsets.all(10),
                                 padding: EdgeInsets.all(10),
                                 decoration: BoxDecoration(
@@ -92,7 +93,7 @@ class _oldghor extends State<oldghor> {
                                   point2[index],
                                   textDirection: TextDirection.rtl,
                                   style: const TextStyle(
-                                    fontSize: 20,
+                                    fontSize: 18,
                                     fontWeight: FontWeight.w100,
                                   ),
                                 ),
@@ -111,7 +112,7 @@ class _oldghor extends State<oldghor> {
           if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else {
-            return const Center(child: CircularProgressIndicator());
+            return  Center(child: circularprogressindicator());
           }
         },
       ),

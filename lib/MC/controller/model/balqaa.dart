@@ -17,7 +17,7 @@ class balqaa {
       id: json["_id"],
       point1: json["مجمع البقعة"], 
       point2: json["مجمع دير علا"],
-      point3: json["مجمع السلط الداخلي"], 
+      point3: json["مجمع السلط الخارجي"], 
     );
   }
 }

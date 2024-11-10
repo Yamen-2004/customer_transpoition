@@ -215,7 +215,7 @@ class _ghor extends State<ghor> {
               child: ListView.builder(
                 itemBuilder: (context, index) {
                   return Container(
-                    height: 90,
+                    height: 80,
                     margin: EdgeInsets.all(10),
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
@@ -226,7 +226,7 @@ class _ghor extends State<ghor> {
                       data[index],
                       textDirection: TextDirection.rtl,
                       style: const TextStyle(
-                        fontSize: 20,
+                        fontSize: 18,
                         fontWeight: FontWeight.w400,
                       ),
                     ),

@@ -1,3 +1,4 @@
+import 'package:customer_transpoition/widget/waiting.dart';
 import 'package:flutter/material.dart';
 
 class future3 extends StatelessWidget {
@@ -45,7 +46,7 @@ class future3 extends StatelessWidget {
                           itemCount: data.length,
                           itemBuilder: (context, index) {
                             return Container(
-                              height: 90,
+                              height: 80,
                               margin: EdgeInsets.all(10),
                               padding: EdgeInsets.all(10),
                               decoration: BoxDecoration(
@@ -56,7 +57,7 @@ class future3 extends StatelessWidget {
                                 data[index],
                                 textDirection: TextDirection.rtl,
                                 style: const TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 18,
                                   fontWeight: FontWeight.w100,
                                 ),
                               ),
@@ -75,7 +76,7 @@ class future3 extends StatelessWidget {
         if (snapshot.hasError) {
           return Center(child: Text('Error: ${snapshot.error}'));
         } else {
-          return const Center(child: CircularProgressIndicator());
+          return Center(child: circularprogressindicator());
         }
       },
     );

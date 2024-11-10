@@ -11,6 +11,33 @@ class bestPath extends StatelessWidget {
           title: const Text('أفضل مسار'),
         ),
         body: ListView(children: [
+          Container(
+            height: 150,
+            alignment: Alignment.centerRight,
+            decoration: BoxDecoration(
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.withOpacity(0.5),
+                  spreadRadius: 5,
+                  blurRadius: 7,
+                  offset: const Offset(0, 3),
+                ),
+              ],
+              color: Colors.grey[200],
+              border: Border.all(
+                color: Colors.red,
+                width: 1,
+              ),
+            ),
+            child: const Text(
+              """يرجى كتابة سبب حجز الدرون في الخانة المخصصة بدقة، حيث سيتم مراجعة السبب بعناية من قبل الجهات المختصة. تأكد من صحة المعلومات قبل إتمام الحجز، حيث قد يؤدي السبب غير الدقيق أو المخالف للقوانين إلى رفض الحجز أو التعرض للعقوبات. المزيد من التفاصيل""",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.w400,
+              ),
+            ),
+          ),
           Center(
               child: Container(
                   margin: const EdgeInsets.only(top: 200),
