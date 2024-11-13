@@ -10,7 +10,7 @@ class aqabapoints extends StatefulWidget {
 
 class _aqabapoints extends State<aqabapoints> {
   List pictures = [
-    "assets/amman/shamal.png",
+    "assets/points/aqabapoint1.png",
   ];
   List names = [
     "مجمع سفريات العقبة",

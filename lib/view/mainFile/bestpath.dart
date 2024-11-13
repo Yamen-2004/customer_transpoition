@@ -11,8 +11,12 @@ class bestPath extends StatelessWidget {
           title: const Text('أفضل مسار'),
         ),
         body: ListView(children: [
+          SizedBox(
+            height: 20,
+          ),
           Container(
-            height: 150,
+            height: 257,
+            padding: const EdgeInsets.all(20),
             alignment: Alignment.centerRight,
             decoration: BoxDecoration(
               boxShadow: [
@@ -30,7 +34,7 @@ class bestPath extends StatelessWidget {
               ),
             ),
             child: const Text(
-              """يرجى كتابة سبب حجز الدرون في الخانة المخصصة بدقة، حيث سيتم مراجعة السبب بعناية من قبل الجهات المختصة. تأكد من صحة المعلومات قبل إتمام الحجز، حيث قد يؤدي السبب غير الدقيق أو المخالف للقوانين إلى رفض الحجز أو التعرض للعقوبات. المزيد من التفاصيل""",
+              """نود أن نعرب عن تقديرنا للجهود المبذولة من قبل الجهات الحكومية لدعم التحول الرقمي وتعزيز الابتكار في تقديم الخدمات. ومع ذلك، واجهنا تحديات في الحصول على بعض البيانات الحيوية من الجهات المعنية، مما حال دون تمكيننا من تضمين ميزة [الذكاء الاصطناعي] في التطبيق. نأمل أن تتاح لنا الفرصة في المستقبل للتعاون بشكل أكبر مع هذه الجهات لتعزيز التكامل وتحقيق تجربة أفضل للمستخدمين. يمكنك تجربة الميزه من خلال ادخال -كفراسد - كموقع حالي  و - ايدون -  كوجهة""",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 16,
@@ -40,7 +44,7 @@ class bestPath extends StatelessWidget {
           ),
           Center(
               child: Container(
-                  margin: const EdgeInsets.only(top: 200),
+                  margin: const EdgeInsets.only(top: 100),
                   padding: const EdgeInsets.all(20),
                   child: Column(
                     children: [

@@ -10,7 +10,7 @@ class ajlounpoints extends StatefulWidget {
 
 class _ajlounpoints extends State<ajlounpoints> {
   List pictures = [
-    "assets/amman/shamal.png",
+    "assets/points/ajlounpoint1.png",
   ];
   List names = [
     "مجمع عجلون",

@@ -10,8 +10,8 @@ class karakpoints extends StatefulWidget {
 
 class _karakpoints extends State<karakpoints> {
   List pictures = [
-    "assets/amman/shamal.png",
-    "assets/amman/shamal.png",
+    "assets/points/karakpoint1.png",
+    "assets/points/karakpoint2.png",
   ];
   List names = [
     "مجمع الكرك الداخلي",

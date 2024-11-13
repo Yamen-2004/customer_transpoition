@@ -10,8 +10,8 @@ class tafilahPoints extends StatefulWidget {
 
 class _tafilahPoints extends State<tafilahPoints> {
   List pictures = [
-    "assets/amman/almahata.png",
-    "assets/amman/shamal.png",
+    "assets/points/tafilahpoint2.png",
+    "assets/points/tafilahpoint1.png",
   ];
   List names = [
     "مجمع الطفيلة الداخلي",

@@ -10,7 +10,7 @@ class jarashpoints extends StatefulWidget {
 
 class _jarashpoints extends State<jarashpoints> {
   List pictures = [
-    "assets/amman/shamal.png",
+    "assets/points/jarashpoint1.png",
   ];
   List names = [
     "مجمع جرش الجديد",

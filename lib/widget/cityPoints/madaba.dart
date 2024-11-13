@@ -10,8 +10,8 @@ class madabapoints extends StatefulWidget {
 
 class _madabapoints extends State<madabapoints> {
   List pictures = [
-    "assets/amman/almahata.png",
-    "assets/amman/shamal.png",
+    "assets/points/madabapoint1.png",
+    "assets/points/madabapoint2.png",
   ];
   List names = [
     "مجمع مادبا الشمالي",

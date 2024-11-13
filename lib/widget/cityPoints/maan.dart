@@ -10,8 +10,8 @@ class maanpoints extends StatefulWidget {
 
 class _maanpoints extends State<maanpoints> {
   List pictures = [
-    "assets/amman/almahata.png",
-    "assets/amman/shamal.png",
+    "assets/points/maanpoint1.png",
+    "assets/points/maanpoint2.png",
   ];
   List names = [
     "مجمع معان ",

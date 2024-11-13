@@ -10,8 +10,8 @@ class mafraqpoints extends StatefulWidget {
 
 class _mafraqpoints extends State<mafraqpoints> {
   List pictures = [
-    "assets/amman/almahata.png",
-    "assets/amman/shamal.png",
+    "assets/points/mafraqpoint1.png",
+    "assets/points/mafraqpoint2.png",
   ];
   List names = [
     "مجمع المفرق الشرقي",

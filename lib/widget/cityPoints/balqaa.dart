@@ -10,9 +10,10 @@ class balqaapoints extends StatefulWidget {
 
 class _balqaapoint1 extends State<balqaapoints> {
   List pictures = [
-    "assets/amman/almahata.png",
-    "assets/amman/shamal.png",
-    "assets/amman/janoob.png",
+    "assets/points/balqaapoint1.png",
+    "assets/points/balqaapoint2.png",
+    "assets/points/balqaapoint3.png",
+
   ];
   List names = [
     "مجمع السلط الخارجي",
