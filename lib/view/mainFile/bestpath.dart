@@ -85,7 +85,7 @@ class bestPath extends StatelessWidget {
                           style: ElevatedButton.styleFrom(
                             shadowColor: const Color.fromARGB(255, 95, 60, 47),
                             elevation: 20,
-                            primary: const Color(0xff799C90),
+                            backgroundColor: const Color(0xff799C90),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(20)),
                           ),

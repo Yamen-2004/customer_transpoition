@@ -23,7 +23,7 @@ class homePageCardOne extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30),
                     ),
-                    primary: const Color.fromARGB(255, 95, 95, 95),
+                    backgroundColor: const Color.fromARGB(255, 95, 95, 95),
                     minimumSize: const Size(50, 50),
                   ),
                   onPressed: () {

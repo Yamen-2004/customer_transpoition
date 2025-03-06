@@ -54,10 +54,10 @@ class onboarding extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  primary: Color(0xff799C90),
+                  backgroundColor: Color(0xff799C90),
                   shadowColor: Colors.brown,
                   elevation: 20,
-                  onPrimary: Colors.white,
+                  foregroundColor: Colors.white,
                   minimumSize: Size(200, 50),
                 ),
                 onPressed: () {

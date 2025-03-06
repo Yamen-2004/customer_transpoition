@@ -131,8 +131,8 @@ class _ReportPageState extends State<ReportPage> {
                   style: ElevatedButton.styleFrom(
                     shadowColor: const Color.fromARGB(255, 88, 49, 35),
                     elevation: 20,
-                    primary: Color(0xff799C90),
-                    onPrimary: Colors.white,
+                    backgroundColor: Color(0xff799C90),
+                    foregroundColor: Colors.white,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(50.0),
                     ),
