@@ -1,0 +1,52 @@
+import 'package:customer_transpoition/widget/position.dart';
+import 'package:flutter/material.dart';
+
+class mafraqpoints extends StatefulWidget {
+  const mafraqpoints({super.key});
+
+  @override
+  _mafraqpoints createState() => _mafraqpoints();
+}
+
+class _mafraqpoints extends State<mafraqpoints> {
+  List pictures = [
+    "assets/points/mafraqpoint1.png",
+    "assets/points/mafraqpoint2.png",
+  ];
+  List names = [
+    "مجمع المفرق الشرقي",
+    "مجمع المفرق الغربي",
+  ];
+  List routes = ["/mafraqPoint1",
+                 "/mafraqPoint2"];
+  @override
+  Widget build(BuildContext context) {
+    return GridView.builder(
+        itemCount: pictures.length,
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 2,
+          childAspectRatio: 1,
+          mainAxisSpacing: 0,
+          crossAxisSpacing: 7,
+        ),
+        itemBuilder: (context, index) {
+          return GestureDetector(
+            onTap: () => Navigator.pushNamed(context, '${routes[index]}'),
+            child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
+              child: Column(
+                children: [
+                  Stack(children: [
+                    Image.asset(pictures[index],
+                        fit: BoxFit.cover, height: 194, width: double.infinity),
+                    position(text: names[index])
+                  ]),
+                ],
+              ),
+            ),
+          );
+        });
+  }
+}
